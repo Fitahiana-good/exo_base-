@@ -17,3 +17,11 @@
 
 - CATEGORIE(**id_categorie**, nom)
 - PLAT(**id_plat**, nom, prix, #id_categorie)
+
+
+# Étape 3 — Les commandes
+
+## Schéma
+
+- COMMANDE(**id_commande**, date_commande)
+- LIGNE_COMMANDE(**#id_commande**, **#id_plat**, quantite)
