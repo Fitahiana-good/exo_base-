@@ -9,3 +9,11 @@
 - `id_plat` : clé primaire, identifiant unique du plat.
 - `nom` : nom du plat.
 - `prix` : prix du plat, stocké en entier en ariary (sans centimes).
+
+
+# Étape 2 — Les catégories
+
+## Schéma relationnel après modification
+
+- CATEGORIE(**id_categorie**, nom)
+- PLAT(**id_plat**, nom, prix, #id_categorie)
