@@ -32,3 +32,11 @@
 
 - CLIENT(**id_client**, nom)
 - COMMANDE(**id_commande**, date_commande, #id_client?)
+
+# Étape 5 — Serveurs et tables
+
+## Schéma
+
+- SERVEUR(**id_serveur**, nom)
+- TABLE_SALLE(**id_table_salle**, numero)
+- COMMANDE(**id_commande**, date_commande, #id_client?, #id_serveur, #id_table_salle?)
