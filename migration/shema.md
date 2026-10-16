@@ -25,3 +25,10 @@
 
 - COMMANDE(**id_commande**, date_commande)
 - LIGNE_COMMANDE(**#id_commande**, **#id_plat**, quantite)
+
+# Étape 4 — Les habitués
+
+## Schéma
+
+- CLIENT(**id_client**, nom)
+- COMMANDE(**id_commande**, date_commande, #id_client?)
